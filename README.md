@@ -29,8 +29,17 @@ For running this dashboard, in your platform run all the cells in Notebook.ipynb
 The data used in this project was downloaded from
 
 - Cause-of-death data: https://opendata.cbs.nl/statline/portal.html?_la=en&_catalog=CBS&tableId=7052eng&_theme=1128 
-- Total-death data: https://opendata.cbs.nl/portal.html?_la=en&_catalog=CBS&tableId=37979eng&_theme=1059 
+- Total-death data: https://opendata.cbs.nl/portal.html?_la=en&_catalog=CBS&tableId=37979eng&_theme=1059
+  
+### Configuration
+The config.yaml file specifies paths to datasets for total deaths and causes of death.
 
+### Interactive Dashboard
+The project features an interactive dashboard using Panel, which includes:
+
+- Interactive controls for selecting different years and age groups.
+- A range of visualizations such as histograms, bar plots, stacked bar plots, vertical bar plots, pie charts, and donut charts.
+- A sidebar with additional information and images.
 
 ### Note: 
 - I only select the cause of death from the entire dataset to work with. 
